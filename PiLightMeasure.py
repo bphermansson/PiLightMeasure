@@ -30,7 +30,7 @@ def rc_time (pin_to_circuit):
     #Change the pin back to input
     GPIO.setup(pin_to_circuit, GPIO.IN)
   
-    #Count until the pin goes high
+    #Count until the pin goes low
     while (GPIO.input(pin_to_circuit) == GPIO.HIGH):
         count += 1
 
