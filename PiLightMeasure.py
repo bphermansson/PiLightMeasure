@@ -36,7 +36,7 @@ def rc_time (pin_to_circuit):
 
     return count
 
-#Caltch when script is interupted, cleanup correctly
+#Caltchh when script is interupted, cleanup correctly
 try:
     # Main loop
     prints "Rpi light measure"
