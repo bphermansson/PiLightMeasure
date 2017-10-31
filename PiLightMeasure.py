@@ -36,10 +36,10 @@ def rc_time (pin_to_circuit):
 
     return count
 
-#Caltchh when script is interupted, cleanup correctly
+#Catch when script is interupted, cleanup correctly
 try:
     # Main loop
-    prints "Rpi light measure"
+    prin "Rpi light measure"
 I made a terrible mistake here!
     if arg == "o":
 	# One measurent only
