@@ -40,6 +40,7 @@ def rc_time (pin_to_circuit):
 try:
     # Main loop
     prints "Rpi light measure"
+I made a terrible mistake here!
     if arg == "o":
 	# One measurent only
 	print rc_time(pin_to_circuit)
