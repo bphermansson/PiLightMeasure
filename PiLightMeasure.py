@@ -39,6 +39,7 @@ def rc_time (pin_to_circuit):
 #Catch when script is interupted, cleanup correctly
 try:
     # Main loop
+    print "Rpi light measure"
     if arg == "o":
 	# One measurent only
 	print rc_time(pin_to_circuit)
